@@ -109,7 +109,7 @@ const Page = () => {
     </main><Pagination>
         <PaginationContent>
         <PaginationItem>
-            <PaginationPrevious href="/home" />
+            <PaginationPrevious href="/" />
           </PaginationItem>
           <PaginationItem>
             <PaginationLink href="/home">1</PaginationLink>
