@@ -26,7 +26,7 @@ const page = () => {
   return (
     <>
       <main className=" flex max-sm:flex-col">
-        <div className="w-[500px] text-sm text-slate-500 max-sm:w-[400px] max-sm:h-[550px] rounded-lg  shadow-lg d h-[662px] max-sm:mr-[-323px]  flex-shrink ml-[10px] mt-2 max-sm:mb-[300px]">
+        <div className="w-[500px] text-sm text-slate-500 max-sm:w-[400px] max-sm:h-[550px] rounded-lg  shadow-lg d h-[660px] max-sm:mr-[-323px]  flex-shrink ml-[10px] mt-2 max-sm:mb-[300px]">
           <div className=" h-[240px]  w-full   ">
             <Image
               className=" w-full h-[240px] object-center bg-cover rounded-2xl"
@@ -61,7 +61,7 @@ const page = () => {
 
           <p className=" mt-[75px] ml-4 max-sm:mt-[25px]"> cooke setting</p>
         </div>
-        <div className=" w-[1000px]  max-sm:mt-[-230px] h-[660px] shadow-lg rounded-sm ">
+        <div className=" w-[1000px]  max-sm:mt-[-230px] h-[669px] shadow-lg rounded-sm ">
           <h1 className=" font-bold text-xl text-black ml-5">
             {" "}
             Enter your Details{" "}
@@ -106,10 +106,8 @@ const page = () => {
       <Pagination>
         <PaginationContent className=" max-sm: mt-[50px]">
         <PaginationItem>
-            <PaginationPrevious href="/home" />
-          </PaginationItem>
-          <PaginationItem>
-            <PaginationLink href="/home">1</PaginationLink>
+         
+            <PaginationLink href="/">1</PaginationLink>
           </PaginationItem>
           <PaginationItem>
             <PaginationLink href="/pagetwo">2</PaginationLink>

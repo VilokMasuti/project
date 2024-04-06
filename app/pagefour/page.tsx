@@ -87,11 +87,9 @@ const page = () => {
       </main>
       <Pagination className=" max-sm:mt-[170px]">
         <PaginationContent className=" ">
+         
           <PaginationItem>
-            <PaginationPrevious href="/home" />
-          </PaginationItem>
-          <PaginationItem>
-            <PaginationLink href="/home">1</PaginationLink>
+            <PaginationLink href="/">1</PaginationLink>
           </PaginationItem>
           <PaginationItem>
             <PaginationLink href="/pagetwo">2</PaginationLink>
@@ -102,7 +100,7 @@ const page = () => {
           <PaginationItem>
             <PaginationLink href="/pagefour">4</PaginationLink>
           </PaginationItem>
-          <PaginationNext href="/home" />
+          <PaginationNext href="/" />
         </PaginationContent>
       </Pagination>
     </>

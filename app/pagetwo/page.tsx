@@ -100,8 +100,8 @@ const Page = () => {
             </PopoverTrigger>
             <PopoverContent className="w-[600px] h-[568px] p-0" align="start">
               <div className=" relative">
-                <div className='rotate-45  skew-y-3  w-[140px] absolute left-[490px] rounded-md h-11  rounded-l-lg shadow-md'>
-                  <h1 className=" text-center mt-1"> Calendly</h1>
+                <div className='rotate-45  skew-y-3 rounded-tr-full rounded-tl-full   w-[140px] absolute left-[490px] rounded-md h-11  rounded-l-lg shadow-md'>
+                  <h1 className=" text-center pt-4"> Calendly</h1>
                 </div>
 
                 <Calendar
@@ -146,10 +146,10 @@ const Page = () => {
     </main><Pagination className=" max-sm:mt-[-180px]">
         <PaginationContent className=" ">
         <PaginationItem>
-            <PaginationPrevious href="/home" />
+            <PaginationPrevious href="/" />
           </PaginationItem>
           <PaginationItem>
-            <PaginationLink href="/home">1</PaginationLink>
+            <PaginationLink href="/">1</PaginationLink>
           </PaginationItem>
           <PaginationItem>
             <PaginationLink href="/pagetwo">2</PaginationLink>
